@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             ),
             Divider(color: Colors.black,),
             ListTile(
-              title: Text("Punyku 1"),
+              title: Text("Punyku 2"),
               subtitle: Text("Halooo Bangg!!"),
               leading: CircleAvatar(),
               trailing: Text("10:00 PM"),
@@ -31,14 +31,14 @@ class MyApp extends StatelessWidget {
             Divider(color: Colors.black,),
             ListTile(
               contentPadding: EdgeInsets.all(10),
-              title: Text("Punyku 1"),
+              title: Text("Punyku 3"),
               subtitle: Text("Halooo Bangg!!"),
               leading: CircleAvatar(),
               trailing: Text("10:00 PM"),
             ),
             Divider(color: Colors.black,),
             ListTile(
-              title: Text("Punyku 1"),
+              title: Text("Punyku 4"),
               subtitle: Text("Halooo Bangg!!"),
               leading: CircleAvatar(),
               trailing: Text("10:00 PM"),
