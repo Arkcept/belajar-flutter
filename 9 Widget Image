@@ -1,0 +1,32 @@
+import 'dart:js_util';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Widget Image"),
+        ),
+        body: Center(
+          child: Container(
+            width: 350,
+            height: 350,
+            color: Colors.amber,
+            child: Image(
+              fit: BoxFit.cover,
+              image: NetworkImage("https://picsum.photos/id/237/200/300"),
+              ),
+          ),
+        ),
+      ),
+    );
+  }
+}
